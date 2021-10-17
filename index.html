@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-CA">
 <head>
-<title>Page Title</title>
+<title>Home</title>
+<link rel="stylesheet" href="stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+<div id="navbar" class="fontfamily">
+    <ul id="navbar-list">
+        <li class="navbar-list-element navbar-list-styling"><a class="navbar-list-styling" href="index.html">Home</a></li>
+        <li class="navbar-list-element navbar-list-styling"><a class="navbar-list-styling" href="about.html">About</a></li>
+        <li class="navbar-list-element navbar-list-styling"><a class="navbar-list-styling" href="coolfacts.html">Cool Facts</a></li>
+    </ul>
+</div>
+<div id="webpage">
+    <h1>Welcome</h1>
+    <h3>A little bit about what we learned in this course.</h3>
+    <p>
+    So far in this course, we learned plenty about HTML5 and the web. Firstly, we learned about the basics of the web such as web servers
+    and clients, networking, and web addresses with its two layers: domain name and ip address. Secondly, we identified different URL types
+    such as relative and absolute and their cryptic character encoding along with mapping Google Maps with API keys, putting that theory into
+    practice. Lastly, we jumped right into HTML and CSS looking at examples of basic elements such as: text elements images, links, tables, 
+    formatting, block elements, inline elements, and basic css properties.The fun thing about the course so far was Google API mapping.
+    </p>
+    <p>Below are some of the skills that we learned so far in this course with Googles' API using URLs: </p>
+    <img class="mapImage"
+     src="https://maps.googleapis.com/maps/api/staticmap?center=44.9048991%2C-77.244029&zoom=12&size=600x400&maptype=roadmap&key=AIzaSyBUxvIhcqHLpBlOoC2oCSaUmN0I66JoaRA" 
+     alt="Bon Echo Provincial Park">
+     <img class="mapImage"
+     src="https://maps.googleapis.com/maps/api/staticmap?center=50.752919%2C-89.5454259&zoom=8&size=600x400&maptype=hybrid&key=AIzaSyBUxvIhcqHLpBlOoC2oCSaUmN0I66JoaRA" 
+     alt="Wabakimi Provincial Park">
+</div>
+<footer>
+<p>Author: Ali Mokheamer; &copy; All rights reserved: Fleming College, W3Schools</p>
+</footer>
 </body>
 </html>
