@@ -2,10 +2,11 @@
 <html lang="en-CA">
 <head>
 <title>Home</title>
-<link rel="stylesheet" href="mokhystyles.css">
+<link rel="stylesheet" href="stylesheet.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<!-- This is a navbar that that navigates between different pages on this website with styling applied through CSS -->
 <div id="navbar" class="fontfamily">
     <ul id="navbar-list">
         <li class="navbar-list-element navbar-list-styling"><a class="navbar-list-styling" href="index.html">Home</a></li>
@@ -13,17 +14,19 @@
         <li class="navbar-list-element navbar-list-styling"><a class="navbar-list-styling" href="coolfacts.html">Cool Facts</a></li>
     </ul>
 </div>
+<!-- This Div element holds the content of the website to separate between the navbar and the content. Styled and formatted using CSS -->
 <div id="webpage">
-    <h1>Welcome</h1>
-    <h3>A little bit about what we learned in this course.</h3>
-    <p>
-    So far in this course, we learned plenty about HTML5 and the web. Firstly, we learned about the basics of the web such as web servers
+    <h1 id="headerOneStyle">Welcome</h1>
+    <h3 id="headerThreeStyle">A little bit about what we learned in this course.</h3>
+    <!-- This paragraph explains a recap of what we have done so far in GEOM 101: Web Design and Programming -->
+    <p class="paragraphStyle">So far in this course, we learned plenty about HTML5 and the web. Firstly, we learned about the basics of the web such as web servers
     and clients, networking, and web addresses with its two layers: domain name and ip address. Secondly, we identified different URL types
     such as relative and absolute and their cryptic character encoding along with mapping Google Maps with API keys, putting that theory into
     practice. Lastly, we jumped right into HTML and CSS looking at examples of basic elements such as: text elements images, links, tables, 
     formatting, block elements, inline elements, and basic css properties.The fun thing about the course so far was Google API mapping.
     </p>
-    <p>Below are some of the skills that we learned so far in this course with Googles' API using URLs: </p>
+    <p class="paragraphStyle">Below are some of the skills that we learned so far in this course with Googles' API using URLs: </p>
+    <!-- Images of Maps of Bon Echo Provincial Park and Wabakimi Provincial Park from GoogleAPI using the image elements to represent them -->
     <img class="mapImage"
      src="https://maps.googleapis.com/maps/api/staticmap?center=44.9048991%2C-77.244029&zoom=12&size=600x400&maptype=roadmap&key=AIzaSyBUxvIhcqHLpBlOoC2oCSaUmN0I66JoaRA" 
      alt="Bon Echo Provincial Park">
@@ -31,8 +34,9 @@
      src="https://maps.googleapis.com/maps/api/staticmap?center=50.752919%2C-89.5454259&zoom=8&size=600x400&maptype=hybrid&key=AIzaSyBUxvIhcqHLpBlOoC2oCSaUmN0I66JoaRA" 
      alt="Wabakimi Provincial Park">
 </div>
+<!-- Footer sources the website which I have used and authors' me, styled with CSS -->
 <footer>
-<p>Author: Ali Mokheamer; &copy; All rights reserved: Fleming College, W3Schools</p>
+<p class="paragraphStyle">Author: Ali Mokheamer; &copy; All rights reserved: Fleming College, W3Schools</p>
 </footer>
 </body>
 </html>
