@@ -9,24 +9,80 @@ body{
 
 #webpage{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 5px;
 }
 
-/* https://www.w3schools.com/css/css_navbar_horizontal.asp */
+#headerOneStyle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+#headerOneStyle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+#headerThreeStyles {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#headerThreeStyles {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+#headerFourStyles {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#headerFourStyles {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.paragraphStyle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #273624;
+}
+
+.paragraphStyle{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+   Sets the list style to none to get rid of the default disc
+   sets the margin to zero and sets overflow to hidden so if the list
+   does overflow, it hides it, ultimately making the navbar uniform
+   https://www.w3schools.com/css/css_navbar_horizontal.asp 
+*/
 #navbar-list{
     list-style-type: none;
     margin: 0px;
     overflow: hidden;
 }
 
-/* https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/* 
+   Sets the navbar list elements (li) to be inline so it can be
+   manipulated easier from other CSS properties, and sets content
+   to the to left. https://www.w3schools.com/css/css_navbar_horizontal.asp
+*/
 .navbar-list-element{
     display: inline;
     float: left;
 }
 
-/* https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/* 
+   Sets the element type to block so its possible to manipulate
+   with other CSS properties, sets colour to white (text), centres
+   the text, sets the padding for left and top to 8px each and
+   no text decoration is needed, overrides the list default
+   https://www.w3schools.com/css/css_navbar_horizontal.asp 
+*/
 .navbar-list-styling{
   display: block;
   color: white;
@@ -41,7 +97,10 @@ body{
     min-height: 200px;
 }
 
-/* https://www.w3schools.com/css/css_link.asp */
+/*
+   Overrides the default link colour to this hex decimal colour
+   https://www.w3schools.com/css/css_link.asp 
+*/
 .pageLink:link{
     color: #4f5d4c;
 }
@@ -50,7 +109,11 @@ body{
     color: #273624;
 }
 
-/* https://www.w3schools.com/howto/howto_css_table_center.asp */
+/* Sets the margins of both the left and right of the table
+   to auto, meaning it'll take the available widths of both sides
+   and pushes the table towards the centre, sets table width to 75%
+   of the total parent element width (div), margin top to 60, gives
+   spacing https://www.w3schools.com/howto/howto_css_table_center.asp */
 #tablePosition{
     margin-left: auto;
     margin-right: auto;
@@ -84,15 +147,23 @@ th{
     padding-right: 10px;
 }
 
-/* https://www.w3schools.com/css/css3_borders.asp */
+/* 
+   Sets the max height and width to --px, border-radius
+   is for giving the images an edge, 15px to be exact of
+   the full image per corner, sets padding of all sides to 5px
+   https://www.w3schools.com/css/css3_borders.asp 
+*/
 .tableImage{
-    width: 450px;
-    height: 350px;
     border-radius: 15px;
     padding: 5px;
 }
 
-/* https://www.w3schools.com/html/html5_semantic_elements.asp */
+/* 
+   Aligns the text to the centre, gives margin top 25px for
+   spacing and formatting sake, sets all padding to 5px, sets
+   the background colour to a hexadecimal colour, sets text 
+   to white https://www.w3schools.com/html/html5_semantic_elements.asp 
+*/
 footer{
     text-align: center;
     margin-top: 25px;
